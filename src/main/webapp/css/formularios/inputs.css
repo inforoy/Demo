@@ -1,0 +1,386 @@
+@CHARSET "ISO-8859-1";
+/****************************************************************************/
+/*input: INPUT-ONE*/
+.input_one {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 250px;
+}
+
+.input_one:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-ONE*/
+/****************************************************************************/
+/*input: INPUT-NUMERO*/
+.input_numero {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 50px;
+}
+
+.input_numero:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-NUMERO*/
+/****************************************************************************/
+/*input: INPUT-HORA*/
+.input_hora {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 200px;
+}
+
+.input_hora:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-HORA*/
+/****************************************************************************/
+
+/*input: INPUT-OBSERVACION*/
+.input_observacion {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 250px;
+}
+
+.input_observacion:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-OBSERVACION*/
+/****************************************************************************/
+/*input: INPUT-FECHA*/
+.input_date {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 80px;
+}
+
+.input_date:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-FECHA*/
+/****************************************************************************/
+/*input: INPUT-FECHA-DOS*/
+.input_date_dos {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 80px;
+}
+
+.input_date_dos:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-FECHA-DOS*/
+/****************************************************************************/
+/*boton: NUEVO EXPEDIENTE*/
+.btn_nuevo_expediente {
+	font: bold 15px Verdana, Geneva, sans-serif;
+	font-style: normal;
+	color: #000000;
+	background: #f5f5f5;
+	border: 1px solid #bbb;
+	text-shadow: 0px 1px 0px #fff;
+	box-shadow: 0px 1px 10px #d1cfd1;
+	-moz-box-shadow: 0px 1px 10px #d1cfd1;
+	-webkit-box-shadow: 0px 1px 10px #d1cfd1;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	width: 180px;
+	padding: 3px 15px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+.btn_nuevo_expediente:active {
+	cursor: pointer;
+	position: relative;
+	top: 5px;
+}
+/*boton: FIN - NUEVO EXPEDIENTE*/
+/****************************************************************************/
+/*boton: BUSCAR*/
+.btn_buscar {
+	font: bold 15px Verdana, Geneva, sans-serif;
+	font-style: normal;
+	color: #000000;
+	background: #f5f5f5;
+	border: 1px solid #bbb;
+	text-shadow: 0px 1px 0px #fff;
+	box-shadow: 0px 1px 10px #d1cfd1;
+	-moz-box-shadow: 0px 1px 10px #d1cfd1;
+	-webkit-box-shadow: 0px 1px 10px #d1cfd1;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	width: 80px;
+	padding: 3px 15px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+.btn_buscar:active {
+	cursor: pointer;
+	position: relative;
+	top: 5px;
+}
+/*boton: FIN - BUSCAR*/
+/****************************************************************************/
+/*boton: BUSCAR*/
+.btn_asignar {
+	font: bold 15px Verdana, Geneva, sans-serif;
+	font-style: normal;
+	color: #000000;
+	background: #f5f5f5;
+	border: 1px solid #bbb;
+	text-shadow: 0px 1px 0px #fff;
+	box-shadow: 0px 1px 10px #d1cfd1;
+	-moz-box-shadow: 0px 1px 10px #d1cfd1;
+	-webkit-box-shadow: 0px 1px 10px #d1cfd1;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	width: 100px;
+	padding: 3px 15px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+.btn_asignar:active {
+	cursor: pointer;
+	position: relative;
+	top: 5px;
+}
+/*boton: FIN - BUSCAR*/
+/****************************************************************************/
+/*boton: GUARDAR*/
+.btn_guardar {
+	font: bold 15px Verdana, Geneva, sans-serif;
+	font-style: normal;
+	color: #000000;
+	background: #f5f5f5;
+	border: 1px solid #bbb;
+	text-shadow: 0px 1px 0px #fff;
+	box-shadow: 0px 1px 10px #d1cfd1;
+	-moz-box-shadow: 0px 1px 10px #d1cfd1;
+	-webkit-box-shadow: 0px 1px 10px #d1cfd1;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	width: 100px;
+	padding: 3px 15px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+.btn_guardar:active {
+	cursor: pointer;
+	position: relative;
+	top: 5px;
+}
+/*boton: FIN - GUARDAR*/
+/****************************************************************************/
+/**/
+.label {
+	width: 200px;
+	float: left;
+	font-family: sans-serif;
+	font-size: 14px;
+	color:#222;
+	text-align:left;
+}
+/****************************************************************************/
+#label_titulo_pestanas {	
+	float: left;
+	font-family: sans-serif;
+	font-size: 20px;
+	color:#849C89;
+	text-align:left;
+}
+/****************************************************************************/
+.combo_uno {
+	width: 250px;
+	padding: 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	height: 35px;
+	background-color: #f5f5f5;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.combo_uno:focus {	
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+	border-radius: 10px 10px 10px 10px;
+	height: 35px;
+	padding: 5px;
+}
+/****************************************************************************/
+/*input: INPUT-EXP-ONE*/
+.input_exp_uno {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 30px;
+}
+
+.input_exp_uno:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-EXP-ONE*/
+/****************************************************************************/
+/*input: INPUT-EXP-DOS*/
+.input_exp_dos {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 40px;
+}
+
+.input_exp_dos:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-EXP-DOS*/
+/****************************************************************************/
+/*input: INPUT-EXP-TRES*/
+.input_exp_tres {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 10px;
+}
+
+.input_exp_tres:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-EXP-TRES*/
+/****************************************************************************/
+/*input: INPUT-EXP-CUATRO*/
+.input_exp_cuatro {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 30px;
+}
+
+.input_exp_cuatro:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-EXP-CUATRO*/
+/****************************************************************************/
+/*input: INPUT-EXP-CINCO*/
+.input_exp_cinco {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 30px;
+}
+
+.input_exp_cinco:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-EXP-CINCO*/
+/****************************************************************************/
+/*input: INPUT-EXP-SEIS*/
+.input_exp_seis {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 30px;
+}
+
+.input_exp_seis:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-EXP-CINCO*/
+/****************************************************************************/
+/*input: INPUT-EXP-CINCO*/
+.input_exp_siete {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 10px;
+}
+
+.input_exp_siete:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-EXP-CINCO*/
+/****************************************************************************/
+
+/*input: INPUT-NOTIFICACION-ONE*/
+.input_notif_uno {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 30px;
+}
+
+.input_notif_uno:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-NOTIFICACION-ONE*/
+/****************************************************************************/
+/*input: INPUT-NOTIFICACION-DOS*/
+.input_notif_dos {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 45px;
+}
+
+.input_notif_dos:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-NOTIFICACION-DOS*/
+/****************************************************************************/
+/*input: INPUT-EXP-TRES*/
+.input_notif_tres {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 20px;
+}
+
+.input_notif_tres:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-NOTIFICACION-TRES*/
+/****************************************************************************/
+/*input: INPUT-EXP-CUATRO*/
+.input_notif_cuatro {
+	padding: 10px;
+	border: solid 1px #2F4f4f;
+	border-radius: 5px;
+	width: 20px;
+}
+
+.input_notif_cuatro:focus {
+	box-shadow: 0 0 10px #036;
+	border: solid 1px;
+}
+/*input: FIN - INPUT-NOTIFICACION-CUATRO*/
+/****************************************************************************/

@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+/****************************************************************************/
+#form {
+	border: 1px solid #FFFFFF;
+	width: 920px;
+	margin: auto;
+}
+
+#formFielset {
+	border: 1px solid #FFFFFF;
+}
+
+#form legend {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#form ol {
+	list-style: none;
+}
+
+#form ol li {
+	padding-bottom: 1px;
+}
+
+#form ol li label {
+	width: 200px;
+	float: left;
+	text-align: left;
+}
+
+/****************************************************************************/

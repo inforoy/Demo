@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*********************@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;}
+
+
+***************************************/
+#body{
+	background: #FFFFFF;
+}
+/**********Contenedor Principal**********/
+#contenedorPrincipal {
+	width: 960px;	
+	height: auto;	
+	margin: auto;
+	display:block;	
+}
+
+/************************************************************/
+#contenedorCabecera {
+	width: 960px;	
+	height: 15px;
+	float:left;
+	display:block;
+}
+
+/************************************************************/
+#contenedorBanner {
+	width: 960px;
+	height: 200px;
+	background: #00cc55;
+	float:left;
+	display:block;
+}
+/************************************************************/
+#contenedorMenu {
+	width: 960px;
+	height: 40px;
+	background: #555fff;
+	float:left;	
+        display:block;
+}
+
+/************************************************************/
+
+#contenedorCuerpo {
+	width: 960px;
+	height: auto;
+	float:left;
+	display:block;
+        background: #00ce88;
+}
+
+
+
+/************************************************************/
+#contenedorFooter {
+	width: 960px;
+	height: 40px;	
+	float:left;
+	display:block;	
+	clear:both;
+        background: #aa4c55;
+}
+
+/************************************************************/
+/************************************************************/
+
+
+.enlacesCabecera{
+	color: #000000;
+	font-family: Calibri;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;   
+    float:right; 
+}
+
+.piePagina{
+    color: #000000;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+}
