@@ -79,7 +79,6 @@ public class ProcesoServiceTest {
 	@Test
 	public void borrarProcesoTest(){
 		procesoService.borrarProceso("2013-01030-0-0501-JR-CA-1");
-		
 		verify(procesoDAO, times(1)).borrarProceso("2013-01030-0-0501-JR-CA-1");
 	}
 }
